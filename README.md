@@ -108,12 +108,12 @@ Full table (including non-significant genera, standard errors, and the structura
 
 ## Future improvements
 
-- [ ] Species level taxonomy with the SILVA species add-on reference, where V4 resolution allows it
-- [ ] PICRUSt2 functional prediction from the 16S profile, to turn "which taxa changed" into "which pathways changed"
-- [ ] Add a second real cohort to check whether the Early/Late separation reported here replicates
-- [ ] Compare ANCOM-BC2 against a second differential abundance method (for example ALDEx2) to see whether the 9 significant genera are robust to the choice of method
-- [ ] UniFrac (phylogenetic) beta diversity alongside Bray-Curtis, which needs a reference tree this analysis does not currently build
-- [ ] Resolve the Snakemake/Python version conflict (pin a newer Snakemake release compatible with Python 3.13, or isolate it in its own environment as the other two pipelines do) so this project can be orchestrated the same way as the rest of the portfolio
+- Species level taxonomy with the SILVA species add-on reference, where V4 resolution allows it
+- PICRUSt2 functional prediction from the 16S profile, to turn "which taxa changed" into "which pathways changed"
+- Add a second real cohort to check whether the Early/Late separation reported here replicates
+- Compare ANCOM-BC2 against a second differential abundance method (for example ALDEx2) to see whether the 9 significant genera are robust to the choice of method
+- UniFrac (phylogenetic) beta diversity alongside Bray-Curtis, which needs a reference tree this analysis does not currently build
+- Resolve the Snakemake/Python version conflict (pin a newer Snakemake release compatible with Python 3.13, or isolate it in its own environment as the other two pipelines do) so this project can be orchestrated the same way as the rest of the portfolio
 
 ## Contact / links
 
