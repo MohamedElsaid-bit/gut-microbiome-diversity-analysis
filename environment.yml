@@ -1,0 +1,14 @@
+name: gut-microbiome-diversity-analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3
+  - bioconductor-dada2=1.30
+  - bioconductor-phyloseq=1.46
+  - bioconductor-ancombc=2.4
+  - r-vegan=2.6
+  - r-ggplot2=3.5
+  - r-tidyverse=2.0
+  - r-rmarkdown

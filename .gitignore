@@ -1,0 +1,19 @@
+# Raw and reference data (regenerated via README "How to run it")
+data/raw/*.zip
+data/raw/MiSeq_SOP/
+data/reference/*.fa.gz
+data/processed/filtered/
+data/processed/*.rds
+
+# Keep small committed outputs (tables, figures) - do not ignore results/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Conda / environment
+.snakemake/
+
+# OS
+.DS_Store
